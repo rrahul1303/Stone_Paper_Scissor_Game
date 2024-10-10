@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.heading h1 {
+    text-align: center;  
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6vw;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.logos div{
+    height: 7.5rem;
+    width: 7.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos div:hover{
+    background-color: rgb(22, 19, 205);
+    cursor: pointer;
+}
+.logos img{
+    height: 7rem;
+    width: 7rem;
+    border: 0.5rem ;
+    border-radius: 50%;
+
+}
+.scores_board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    gap: 5vw;
+}
+#your ,#comp{
+    font-size: 3rem;
+}
+#your{
+    margin-left:1rem ;
+}
+#comp{
+    margin-left: 3rem;
+}
+.move {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 3rem; 
+   
+}
+.move p{
+    font-size: 1.5rem;
+    text-align: center;
+   width: auto;
+   border-radius: 20px;
+   padding: 1rem 2rem;
+   padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: rgb(14, 245, 168);
+}
